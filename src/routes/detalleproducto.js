@@ -5,8 +5,8 @@ const router = express.Router();
 // ************ Controller Require ************
 const detallePcontroller = require('../controllers/detallePcontroller');
 
-/* GET - Carrito. */
-router.get('/detalleproducto', detallePcontroller.root);
+/* GET - Detalle de Prodcuto. */
+//router.get('/detalleproducto', detallePcontroller.root);
 
 
 module.exports = router;

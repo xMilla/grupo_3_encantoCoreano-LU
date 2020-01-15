@@ -5,8 +5,8 @@ const router = express.Router();
 // ************ Controller Require ************
 const MetodoPagoController = require('../controllers/MetodoPagoController');
 
-/* GET - Carrito. */
-router.get('/MetodoPago', MetodoPagoController.root);
+/* GET - Metodo de pago. */
+//router.get('/MetodoPago', MetodoPagoController.root);
 
 
 module.exports = router;

@@ -12,7 +12,7 @@ function readHTML (fileName) {
 const Carritocontroller = {
 	root: (req, res) => {
 		//let html = readHTML('Carrito');
-		res.render('carrito');
+		res.render('Carrito');
 	},
 };
 

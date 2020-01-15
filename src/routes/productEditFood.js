@@ -5,7 +5,7 @@ const router = express.Router();
 // ************ Controller Require ************
 const productEditFood = require('../controllers/productEditFoodController');
 
-/* GET - Carrito. */
+/* GET - Productos. */
 router.get('/productEditFood', productEditFood.root);
 router.post('/borrar/:id', productEditFood.borrar);
 router.delete('/borrar/:id', productEditFood.borrar);

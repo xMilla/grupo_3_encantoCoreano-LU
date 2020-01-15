@@ -5,8 +5,8 @@ const router = express.Router();
 // ************ Controller Require ************
 const productAdd = require('../controllers/productAddController');
 
-/* GET - Carrito. */
-router.get('/productAdd', productAdd.root);
+/* GET - Registrat producto. */
+//router.get('/productAdd', productAdd.root);
 
 
 module.exports = router;
